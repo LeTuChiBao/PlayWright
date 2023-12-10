@@ -1,5 +1,13 @@
 name: Playwright Tests
 on:
+  schedule:
+  # Auto run 
+  # - cron:  '30 5,17 * * *'
+
+  # Run flow per 5 minutes
+    - cron: '*/5 * * * *'
+
+  # Manual Run Flow Test
   workflow_dispatch:
   # push:
   #   branches: [ main, master ]
