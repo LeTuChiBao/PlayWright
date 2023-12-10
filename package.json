@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "ui-testing-playwright",
-=======
   "name": "learningplaywright",
->>>>>>> 891349344a7ad556531e299c896c12196861f2d3
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,10 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.1",
-<<<<<<< HEAD
-    "@types/node": "^20.10.2"
-=======
     "@types/node": "^20.10.3"
->>>>>>> 891349344a7ad556531e299c896c12196861f2d3
+
   }
 }
