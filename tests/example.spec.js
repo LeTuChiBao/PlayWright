@@ -10,6 +10,7 @@ test.describe.parallel('suite',()=> {
     await samepleAppPage.fillPasswordField(password)
     await samepleAppPage.clickLoginButton()
     await samepleAppPage.expectedLoginTextTobe(`Welcome, ${username}!`)
+    
   });
 
   test("wrong password", async ({ page }) => {
